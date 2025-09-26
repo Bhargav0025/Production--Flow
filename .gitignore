@@ -1,0 +1,6 @@
+terraform-azure-vm/.terraform/
+terraform-azure-vm/.terraform.lock.hcl
+terraform-azure-vm/terraform.tfstate
+terraform-azure-vm/terraform.tfstate.backup
+terraform-azure-vm/terraform.tfvars
+

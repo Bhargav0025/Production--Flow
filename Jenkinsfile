@@ -48,7 +48,7 @@ pipeline {
       steps {
         input message: "Infrastructure applied successfully. Merge release to main?"
         sh """
-          git config user.email "jenkins@example.com"
+          git config user.email "bhargavheartie@gmail.com"
           git config user.name "Jenkins CI"
           git checkout main
           git merge --no-ff ${env.BRANCH_NAME} -m "Automated merge of ${env.BRANCH_NAME} after prod apply"
@@ -58,9 +58,3 @@ pipeline {
     }
   }
 }
-
-
-
-
-
-  
